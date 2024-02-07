@@ -36,9 +36,11 @@ As Such:
 | Dry | Low  |
 
 
-[COVID-19 Page](ID&W_Website/wwwroot/covidmain.html
+[COVID-19 Page](ID&W_Website/wwwroot/covidmain.html)
 
 The Anthrax page does thes same thing as the COVID-19 page, but is meant to keep track of Anthrax.
+
+[COVID-19 Page](ID&W_Website/wwwroot/covidmain.html)
 
 ## Research_Summary
 Competitive Analysis
