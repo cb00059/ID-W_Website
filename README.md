@@ -24,10 +24,19 @@ The website reflects the ability to page between selected diseases, but does not
 The Home page (weathermain.html) contains a brief description of the website's purpose and ability. It also provides links to the alternative pages of the site.
 These pages are each representing a different disease. Each of the individual disease pages also provides a link back to the main page. 
 
-[]
+[HomePage](ID&W_Website/wwwroot/weathermain.html)
 
 The COVID-19 Page is meant to track the data relatd to COVID-19 outbreaks segmented by region. Currently it does not have the ability to do so, however. 
 It currently contains a table that shows how I would display the rate of spread in relation to the specified climate when it comes to COVID-19.
+As Such:
+| Climate  |Risk / Spread Rate| 
+|:------------:|:--------------:|
+| Tropical | High | 
+| Temperate | Medium  | 
+| Dry | Low  |
+
+
+[COVID-19 Page](ID&W_Website/wwwroot/covidmain.html
 
 The Anthrax page does thes same thing as the COVID-19 page, but is meant to keep track of Anthrax.
 
@@ -42,7 +51,7 @@ Repository research
 Simple weather website that allows searching of different areas and shows details related to that area. https://github.com/PritamSarbajna/simple-weather-website 
 SORMAS https://github.com/SORMAS-Foundation/SORMAS-Project 
 
-The simple weather website has a nice clear function with a neat section that tells all relevant details to the place that was looked up by the user. Additionally, depending on the location that is searched, a different background image will appear. The images are not exactly random either. For example, everytime you search ìNew Yorkî the same image will appear, even if you switch to a different place and come back, New York has its own picture. Sormas has a lot of information and intractability. I particularly like their map feature and the ever-changing bar graph to represent the cases of diseases along with the easily adjustable metric of switching between the diseases at the click of a button. 
+The simple weather website has a nice clear function with a neat section that tells all relevant details to the place that was looked up by the user. Additionally, depending on the location that is searched, a different background image will appear. The images are not exactly random either. For example, everytime you search ‚ÄúNew York‚Äù the same image will appear, even if you switch to a different place and come back, New York has its own picture. Sormas has a lot of information and intractability. I particularly like their map feature and the ever-changing bar graph to represent the cases of diseases along with the easily adjustable metric of switching between the diseases at the click of a button. 
 
 ## Future_Enhancement
 
@@ -61,17 +70,17 @@ in a tool tip format.
 
 I was too lazy to write the headers for my pages:
 
-Prompt: make it a blank webpage that is just titled "weather_main" 
+Prompt: make it a blank webpage that is just titled "weathermmain" 
 
 
-Prompt:make me a separate blank HTML page titled "covid_main"
+Prompt:make me a separate blank HTML page titled "covidmmain"
 
 
 Prompt: give it an h2 line that displays to the user "Dedicated to Tracking COVID-19"
 
 I wanted to see the framework for the statement for bootstrap buttons:
 
-Prompt: write a line of code that uses the bootstrap primary button to redirect the user to an html page titled "covid_main.html" 
+Prompt: write a line of code that uses the bootstrap primary button to redirect the user to an html page titled "covidmmain.html" 
 
 Wanted a framework for a README:
 
@@ -82,10 +91,27 @@ Prompt: how do you make a table in README.md
 ### Bootswatch
 
 Needed Bootstrap to make my website prettier:
+https://bootswatch.com/cyborg/
 
 
 ### W3 Schools
 
 There were many W3 Schools resources I used, so there are some I do not remember, but here are the ones that I do.
 
-To learn nav as a seprate divider than div
+To learn nav as a seprate divider than div:
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_float
+
+CSS Padding:
+https://www.w3schools.com/css/css_padding.asp
+
+Bootstrap Nav:
+https://www.w3schools.com/bootstrap5/bootstrap_navs.php
+
+Boostrap Alerts:
+https://www.w3schools.com/bootstrap5/tryit.asp?filename=trybs_alerts&stacked=h
+
+Boostrap Table:
+https://www.w3schools.com/bootstrap5/tryit.asp?filename=trybs_table_bordered&stacked=h
+
+GetElementID line:
+https://www.w3schools.com/js/js_intro.asp
