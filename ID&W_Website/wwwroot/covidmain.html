@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>covidmain</title>
+
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="ID_W_Website.styles.css" asp-append-version="true" />
+
+    <script>
+        function hideTable() {
+            document.getElementById("covidTable").style.display = "none";
+            document.getElementById("hidebtn").style.display = "none";
+            document.getElementById("unhidebtn").style.display = "inline";
+        }
+        function unhideTable() {
+            document.getElementById("covidTable").style.display = "inline";
+            document.getElementById("hidebtn").style.display = "inline";
+            document.getElementById("unhidebtn").style.display = "none";
+
+        }
+    </script>
+
+    <style>
+        nav {
+            border: 1px solid black;
+            background-color: lightseagreen;
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            padding-left: 80px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>COVID Main Page</h1>
+        <h2>Dedicated to Tracking COVID-19</h2>
+    </nav>
+
+    <a href="weathermain.html">
+        Back to Home Page
+    </a>
+
+
+    <div>
+        <button type="button" onclick="hideTable()" id="hidebtn">Hide Transmission Table</button>
+        <button type="button" onclick="unhideTable()" id="unhidebtn">Show Transmission Table</button>
+        
+    </div>
+
+    <div>
+        <table id="covidTable" class="table table-bordered">
+            <thead style="text-align: center">
+                <tr>
+                    <th>Climate</th>
+                    <th>Risk / Spread Rate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tropical</td>
+
+                    <td>High</td>
+
+                </tr>
+                <tr>
+                    <td>Dry</td>
+
+                    <td>xx</td>
+
+                </tr>
+                <tr>
+                    <td>Temperate</td>
+
+                    <td>xx</td>
+
+                </tr>
+                <tr>
+                    <td>Continental</td>
+
+                    <td>xx</td>
+
+                </tr>
+                <tr>
+                    <td>Polar</td>
+
+                    <td>xx</td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+    </div>
+
+    <div class="alert alert-danger">
+        <strong>Notice!</strong> This Webpage Information Is Not Up To Date! Last Updated: 2/6/2023 9:27 p.m. est
+    </div>
+
+    <script>
+        document.getElementById("hidebtn").style.display = "none"
+        document.getElementById("covidTable").style.display = "none"
+    </script>
+    <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
